@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('handle')->unique();
             $table->json('items')->nullable();
+            $table->foreignId('company_id')->constrained()->onDelete('cascade');;
             $table->timestamps();
         });
     }

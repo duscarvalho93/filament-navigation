@@ -32,7 +32,7 @@ php artisan filament:assets
 You first need to register the plugin with Filament. This can be done inside of your `PanelProvider`, e.g. `AdminPanelProvider`.
 
 ```php
-use RyanChandler\FilamentNavigation\FilamentNavigation;
+use duscarvalho\FilamentNavigation\FilamentNavigation;
 
 return $panel
     ->plugin(FilamentNavigation::make());
@@ -82,10 +82,10 @@ The recursive structure makes it really simple to render nested menus / dropdown
 
 ### Retrieving a navigation object
 
-To retrieve a navigation object, provide the handle to the `RyanChandler\FilamentNavigation\Models\Navigation::fromHandle()` method.
+To retrieve a navigation object, provide the handle to the `duscarvalho\FilamentNavigation\Models\Navigation::fromHandle()` method.
 
 ```php
-use RyanChandler\FilamentNavigation\Models\Navigation;
+use duscarvalho\FilamentNavigation\Models\Navigation;
 
 $menu = Navigation::fromHandle('main-menu');
 ```
@@ -132,7 +132,7 @@ return $panel
 This plugin also provides a custom Filament field that can be used to search and select a navigation menu inside other forms and resources.
 
 ```php
-use RyanChandler\FilamentNavigation\Filament\Fields\NavigationSelect;
+use duscarvalho\FilamentNavigation\Filament\Fields\NavigationSelect;
 
 ->schema([
     NavigationSelect::make('navigation_id'),

@@ -11,7 +11,7 @@ Follow these steps to update the package for Filament v3.x.
 3. Register the plugin inside of your project's `PanelProvider`.
 
 ```php
-use RyanChandler\FilamentNavigation\FilamentNavigation;
+use duscarvalho\FilamentNavigation\FilamentNavigation;
 
 public function panel(Panel $panel): Panel
 {

@@ -1,5 +1,5 @@
 <?php
 
-use RyanChandler\FilamentNavigation\Tests\TestCase;
+use duscarvalho\FilamentNavigation\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);

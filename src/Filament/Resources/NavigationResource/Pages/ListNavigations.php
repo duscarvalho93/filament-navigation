@@ -1,10 +1,10 @@
 <?php
 
-namespace RyanChandler\FilamentNavigation\Filament\Resources\NavigationResource\Pages;
+namespace duscarvalho\FilamentNavigation\Filament\Resources\NavigationResource\Pages;
 
 use Filament\Actions\CreateAction;
 use Filament\Resources\Pages\ListRecords;
-use RyanChandler\FilamentNavigation\FilamentNavigation;
+use duscarvalho\FilamentNavigation\FilamentNavigation;
 
 class ListNavigations extends ListRecords
 {

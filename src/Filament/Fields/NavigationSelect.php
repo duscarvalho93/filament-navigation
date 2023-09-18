@@ -1,9 +1,9 @@
 <?php
 
-namespace RyanChandler\FilamentNavigation\Filament\Fields;
+namespace duscarvalho\FilamentNavigation\Filament\Fields;
 
 use Filament\Forms\Components\Select;
-use RyanChandler\FilamentNavigation\Models\Navigation;
+use duscarvalho\FilamentNavigation\Models\Navigation;
 
 class NavigationSelect extends Select
 {

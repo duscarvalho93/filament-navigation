@@ -1,6 +1,6 @@
 <?php
 
-namespace RyanChandler\FilamentNavigation\Models;
+namespace duscarvalho\FilamentNavigation\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
@@ -24,5 +24,10 @@ class Navigation extends Model
     public static function fromHandle(string $handle): ?static
     {
         return static::query()->firstWhere('handle', $handle);
+    }
+
+    public function company(): BelongsTo
+    {
+        return $this->belongsTo(Company::class, 'company_id');
     }
 }

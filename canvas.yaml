@@ -1,6 +1,6 @@
 preset: package
 
-namespace: RyanChandler\FilamentNavigation
+namespace: duscarvalho\FilamentNavigation
 user-auth-provider: App\User
 
 paths:
@@ -15,13 +15,13 @@ migration:
   prefix: ''
 
 console:
-  namespace: RyanChandler\FilamentNavigation\Console
+  namespace: duscarvalho\FilamentNavigation\Console
 
 model:
-  namespace: RyanChandler\FilamentNavigation
+  namespace: duscarvalho\FilamentNavigation
 
 provider:
-  namespace: RyanChandler\FilamentNavigation\Providers
+  namespace: duscarvalho\FilamentNavigation\Providers
 
 testing:
-  namespace: RyanChandler\FilamentNavigation\Tests
+  namespace: duscarvalho\FilamentNavigation\Tests
